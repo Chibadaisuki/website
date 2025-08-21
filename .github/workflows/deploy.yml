@@ -1,4 +1,4 @@
-name: deploy
+name: Deploy 
 
 on:
   push:
@@ -16,11 +16,11 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
+
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -33,17 +33,22 @@ jobs:
         valueFile: '_config.yml'
         propertyPath: 'giscus.repo'
         value: ${{ github.repository }}
+
     - name: Install and Build 🔧
       run: |
         pip3 install --upgrade jupyter
         npm install -g mermaid.cli
         npm install -g purgecss
         export JEKYLL_ENV=production
-        bundle exec jekyll build --lsi
-        purgecss -c purgecss.config.js
+        bundle exec jekyll build --trace
+        # ⚠️ purgecss 如果没配好会把样式删掉，可以先注释掉这行
+        # purgecss -c purgecss.config.js
+
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: _site
-
+        branch: gh-pages       # ✅ 明确指定发布分支
+        folder: _site          # Jekyll 构建后的目录
+        clean: true            # 每次清空旧文件
+        single-commit: true 
