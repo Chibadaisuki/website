@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yuuchenwu.github.io/longjiejie/sitemap.xml
+Sitemap: https://yuuchenwu.github.io/sitemap.xml
