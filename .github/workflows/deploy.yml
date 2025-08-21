@@ -48,7 +48,7 @@ jobs:
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: gh-pages       # ✅ 明确指定发布分支
+        branch: branches: [ main, master ]       # ✅ 明确指定发布分支
         folder: _site          # Jekyll 构建后的目录
         clean: true            # 每次清空旧文件
         single-commit: true 
