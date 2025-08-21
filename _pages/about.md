@@ -16,9 +16,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! My name is Junkai Wu (伍俊愷 in Chinese). I'm a second year Ph.D. student at the [Department of Electrical & Computer Engineering](https://www.ece.uw.edu/) of the [University of Washington](https://www.washington.edu/), advised by [Prof. Mari Ostendorf](https://people.ece.uw.edu/ostendorf/). My research interests are in audio, speech, and language processing. 
+Hi! My name is Yuchen Wu (吴雨宸 in Chinese). I'm a second year Ph.D. student at the [Department of Electrical & Computer Engineering](https://www.ece.uw.edu/) of the [University of Washington](https://www.washington.edu/), advised by [Prof. Aylin Caliskan](https://faculty.washington.edu/aylin/). My research interests are in LLM agent, personalization, and alignment. 
 
-Before coming to UW, I got my B.S. in Computer Engineering from the [University of Illinois Urbana-Champaign](https://ece.illinois.edu/), where I worked with [Prof. Paris Smaragdis](https://paris.cs.illinois.edu/) and [Prof. Mark Hasegawa-Johnson](https://speechtechnology.web.illinois.edu/mark-a-hasegawa-johnson/).
+Before coming to UW, I have worked with [Prof. Kenji Yanai](https://mm.cs.uec.ac.jp/) at UEC, [Prof. Yong Li](https://fi.ee.tsinghua.edu.cn/people/#faculty) at THU, [Prof. Bhiksha Raj](https://scholar.google.com/citations?user=IWcGY98AAAAJ&hl=en), [Prof. Yuejie Chi](https://yuejiechi.github.io/) and [Prof. Laixi Shi](https://laixishi.github.io/) at CMU.
 
-Here's my [CV](/assets/pdf/JunkaiWu_Resume_Oct2024.pdf) and my email address is "junkaiwu [@] uw [dot] edu".
+Here's my [CV](/assets/pdf/YuchenWu_Resume.pdf) and my email address is "yuchenw [@] uw [dot] edu".
 
