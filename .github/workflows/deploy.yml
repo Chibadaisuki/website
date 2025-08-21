@@ -26,13 +26,13 @@ jobs:
           ruby-version: '3.2.2'
           bundler-cache: true
 
-      - name: Add linux platform (safe)
+      - name: Make bundle compatible with Linux (safe)
         run: bundle lock --add-platform x86_64-linux || true
 
       - name: Build Jekyll
         env:
           JEKYLL_ENV: production
-        run: bundle exec jekyll build --trace   # 产物在 _site/
+        run: bundle exec jekyll build --trace   # 输出到 _site/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
