@@ -1,91 +1,76 @@
 ---
 ---
 
-
-
-@INPROCEEDINGS{wu2024justasrllm,
-  author={Junkai Wu and Xulin Fan and Bo-Ru Lu and Xilin Jiang and Nima Mesgarani and Mark Hasegawa-Johnson and Mari Ostendorf},
-  booktitle={2024 IEEE Spoken Language Technology Workshop (SLT)}, 
-  title={Just ASR + LLM? A Study on Speech Large Language Models' Ability to Identify and Understand Speaker in Spoken Dialogue}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={},
-  doi={},
-  pdf={2409.04927v3.pdf},
-  selected={true}}
-
-@INPROCEEDINGS{10448040,
-  author={Casebeer, Jonah and Wu, Junkai and Smaragdis, Paris},
-  booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
-  title={Meta-AF Echo Cancellation for Improved Keyword Spotting}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={676-680},
-  pdf={2312.10605v1.pdf},
-  keywords={Training;Echo cancellers;Adaptive filters;Training data;Speech recognition;Signal processing;Acoustics;adaptive filtering;keyword spotting;learning to learn;meta-learning;acoustic echo cancellation},
-  doi={10.1109/ICASSP48485.2024.10448040}}
-
-
-@inproceedings{wang-etal-2023-listen,
-    title = "Listen, Decipher and Sign: Toward Unsupervised Speech-to-Sign Language Recognition",
-    author = "Wang, Liming  and
-      Ni, Junrui  and
-      Gao, Heting  and
-      Li, Jialu  and
-      Chang, Kai Chieh  and
-      Fan, Xulin  and
-      Wu, Junkai  and
-      Hasegawa-Johnson, Mark  and
-      Yoo, Chang",
-    editor = "Rogers, Anna  and
-      Boyd-Graber, Jordan  and
-      Okazaki, Naoaki",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.findings-acl.424",
-    doi = "10.18653/v1/2023.findings-acl.424",
-    pages = "6785--6800",
-    pdf={2023.findings-acl.424.pdf}
+@misc{wu2025personalizedsafetyllmsbenchmark,
+      title={Personalized Safety in LLMs: A Benchmark and A Planning-Based Agent Approach}, 
+      author={Yuchen Wu and Edward Sun and Kaijie Zhu and Jianxun Lian and Jose Hernandez-Orallo and Aylin Caliskan and Jindong Wang},
+      year={2025},
+      eprint={2505.18882},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2505.18882}, 
 }
 
-@INPROCEEDINGS{10248180,
-  author={Wang, Zhepei and Subakan, Cem and Subramani, Krishna and Wu, Junkai and Tavares, Tiago and Ayres, Fabio and Smaragdis, Paris},
-  booktitle={2023 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)}, 
-  title={Unsupervised Improvement of Audio-Text Cross-Modal Representations}, 
-  year={2023},
+
+@article{10.1145/3699961,
+author = {Wu, Yuchen and Wang, Huandong and Gao, Changzheng and Jin, Depeng and Li, Yong},
+title = {GeoGail: A Model-Based Imitation Learning Framework for Human Trajectory Synthesizing},
+year = {2025},
+issue_date = {January 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {19},
+number = {1},
+issn = {1556-4681},
+url = {https://doi.org/10.1145/3699961},
+doi = {10.1145/3699961},
+abstract = {Synthesized human trajectories are crucial for a large number of applications. Existing solutions are mainly based on the generative adversarial network (GAN), which is limited due to the lack of modeling the human decision-making process. In this article, we propose a novel imitation learning-based method to synthesize human trajectories. This model utilizes a novel semantics-based interaction mechanism between the decision-making strategy and visitations to diverse geographical locations to model them in the semantic domain in a uniform manner. To augment the modeling ability to the real-world human decision-making policy, we propose a feature extraction model to extract the internal latent factors of variation of different individuals and then propose a novel self-attention-based policy net to capture the long-term correlation of mobility and decision-making patterns. Then, to better reward users’ mobility behavior, we propose a novel multi-scale reward net combined with mutual information to model the instant reward, long-term reward, and individual characteristics in a cohesive manner. Extensive experimental results on two real-world trajectory datasets show that our proposed model can synthesize the most high-quality trajectory data compared with six state-of-the-art baselines in terms of a number of key usability metrics and can well support practical applications based on trajectory data, demonstrating its effectiveness. Furthermore, our proposed method can learn explainable knowledge automatically from data, including explainable statistical features of trajectories and statistical relation between decision-making policy and features.},
+journal = {ACM Trans. Knowl. Discov. Data},
+month = dec,
+articleno = {20},
+numpages = {23},
+keywords = {Mobility Trajectory, Imitation Learning, Generative Models}
+}
+
+@ARTICLE{10239531,
+  author={Wang, Huandong and Zhang, Qizhong and Wu, Yuchen and Jin, Depeng and Wang, Xing and Zhu, Lin and Yu, Li},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Synthesizing Human Trajectories Based on Variational Point Processes}, 
+  year={2024},
+  volume={36},
+  number={4},
+  pages={1785-1799},
+  keywords={Trajectory;Mathematical models;Semantics;Probabilistic logic;Behavioral sciences;Context modeling;Decoding;Generative models;mobility trajectory;temporal point process;variational auto-encoder},
+  doi={10.1109/TKDE.2023.3312209}}
+
+@article{Wang_Gao_Wu_Jin_Yao_Li_2023, title={PateGail: A Privacy-Preserving Mobility Trajectory Generator with Imitation Learning}, volume={37}, url={https://ojs.aaai.org/index.php/AAAI/article/view/26700}, DOI={10.1609/aaai.v37i12.26700}, abstractNote={Generating human mobility trajectories is of great importance to solve the lack of large-scale trajectory data in numerous applications, which is caused by privacy concerns. However, existing mobility trajectory generation methods still require real-world human trajectories centrally collected as the training data, where there exists an inescapable risk of privacy leakage. To overcome this limitation, in this paper, we propose PateGail, a privacy-preserving imitation learning model to generate mobility trajectories, which utilizes the powerful generative adversary imitation learning model to simulate the decision-making process of humans. Further, in order to protect user privacy, we train this model collectively based on decentralized mobility data stored in user devices, where personal discriminators are trained locally to distinguish and reward the real and generated human trajectories. In the training process, only the generated trajectories and their rewards obtained based on personal discriminators are shared between the server and devices, whose privacy is further preserved by our proposed perturbation mechanisms with theoretical proof to satisfy differential privacy. Further, to better model the human decision-making process, we propose a novel aggregation mechanism of the rewards obtained from personal discriminators. We theoretically prove that under the reward obtained based on the aggregation mechanism, our proposed model maximizes the lower bound of the discounted total rewards of users. Extensive experiments show that the trajectories generated by our model are able to resemble real-world trajectories in terms of five key statistical metrics, outperforming state-of-the-art algorithms by over 48.03%. Furthermore, we demonstrate that the synthetic trajectories are able to efficiently support practical applications, including mobility prediction and location recommendation.}, number={12}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Wang, Huandong and Gao, Changzheng and Wu, Yuchen and Jin, Depeng and Yao, Lina and Li, Yong}, year={2023}, month={Jun.}, pages={14539-14547} }
+
+@INPROCEEDINGS{9975097,
+  author={Low, Tze Meng and Chi, Yuejie and Hoe, James and Kumar, Swarun and Prabhakara, Akarsh and Shi, Laixi and Sridhar, Upasana and Tukanov, Nicholai and Wang, Chengyue and Wu, Yuchen},
+  booktitle={2022 IEEE International Symposium on Phased Array Systems & Technology (PAST)}, 
+  title={Zoom Out: Abstractions for Efficient Radar Algorithms on COTS architectures}, 
+  year={2022},
   volume={},
   number={},
-  pages={1-5},
-  doi={10.1109/WASPAA58266.2023.10248180},
-  pdf={2305.01864.pdf},
-  code={https://github.com/zhepeiw/clap_curation}}
+  pages={1-6},
+  keywords={Machine learning algorithms;Tensors;Spaceborne radar;Signal processing algorithms;Machine learning;Computer architecture;Throughput;Super-resolution;machine-learning;high performance computing;efficiency;performance},
+  doi={10.1109/PAST49659.2022.9975097}}
 
-@ARTICLE{9987644,
-  author={Wang, Zhepei and Subakan, Cem and Jiang, Xilin and Wu, Junkai and Tzinis, Efthymios and Ravanelli, Mirco and Smaragdis, Paris},
-  journal={IEEE Signal Processing Letters}, 
-  title={Learning Representations for New Sound Classes With Continual Self-Supervised Learning}, 
-  year={2022},
-  volume={29},
-  number={},
-  pages={2607-2611},
-  doi={10.1109/LSP.2022.3229643},
-  pdf={2205.07390.pdf},
-  code={https://github.com/zhepeiw/cssl_sound}}
+@InProceedings{10.1007/978-3-030-41404-7_22,
+author="Zhang, Runtong
+and Wu, Yuchen
+and Yanai, Keiji",
+editor="Palaiahnakote, Shivakumara
+and Sanniti di Baja, Gabriella
+and Wang, Liang
+and Yan, Wei Qi",
+title="Pre-trained and Shared Encoder in Cycle-Consistent Adversarial Networks to Improve Image Quality",
+booktitle="Pattern Recognition",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="312--325",
+abstract="Images generated from Cycle-Consistent Adversarial Network (CycleGAN) become blurry especially in areas with complex edges because of loss of edge information in downsampling of encoders. To solve this problem, we design a new model called ED-CycleGAN based on original CycleGAN. The key idea is using a pre-trained encoder: training an Encoder-Decoder Block (ED-Block) at first in order to get a difference map, which we call an edge map and is produced by the subtraction of input and output of the block. Then, the encoder part of a generator in CycleGAN share the parameters with the trained encoder of ED-Block and they will be frozen during training. Finally, by adding the output from a generator to the edge map, higher quality images can be produced. This structure performs excellently on ``Apple2Orange'', ``Summer2Winter'' and ``blond-hair2brown-hair'' datasets. We use SSIM and PSNR to evaluate resolution of results and our method achieved the highest evaluation scores among CycleGAN, Unit and DiscoGAN.",
+isbn="978-3-030-41404-7"
+}
 
-@INPROCEEDINGS{9914695,
-  author={Wu, Junkai and Casebeer, Jonah and Bryan, Nicholas J. and Smaragdis, Paris},
-  booktitle={2022 International Workshop on Acoustic Signal Enhancement (IWAENC)}, 
-  title={Meta-Learning for Adaptive Filters with higher-order Frequency Dependencies}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={1-5},
-  doi={10.1109/IWAENC53105.2022.9914695},
-  pdf={2209.09955.pdf},
-  code={https://github.com/adobe-research/MetaAF/tree/main/zoo/hometa_aec},
-  selected={true}}
