@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-## Teaching
+## TAs
 
 ### University of Washington
 - **EE 215: Fundamentals of Electrical Engineering (Winter 2025, Spring 2025)**  
