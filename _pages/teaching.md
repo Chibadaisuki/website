@@ -24,3 +24,18 @@ nav_order: 5
 ## Service
 
 - **Reviewer**: ARR, NeurIPS, AIESConf, IMWUT
+
+---
+
+### Mentorship
+
+- **[Kyle Zheng](/https://scholar.google.com/citations?user=6kkyR1wAAAAJ&hl=en)** (MS student, 2024)  
+  Research Assistant on backdoor defense project.  
+  *Now: Phd in Electrical Engineering, University of Washington.*  
+
+- **[Yifei Zhao](https://www.linkedin.com/in/yifei-zhao2002/)** (MS student, 2024)  
+  Research Assistant on backdoor defense project.
+  *Now: Phd in Computer Science, University of Central Florida.*  
+
+- **Edward Sun** (BS student, 2025)  
+  Research Assistant on personalized LLM safety project.  
