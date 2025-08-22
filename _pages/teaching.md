@@ -34,7 +34,7 @@ nav_order: 5
   *Now: Phd in Electrical Engineering, University of Washington.*  
 
 - **[Yifei Zhao](https://www.linkedin.com/in/yifei-zhao2002/)** (MS student, 2024)  
-  Research Assistant on backdoor defense project.
+  Research Assistant on backdoor defense project.  
   *Now: Phd in Computer Science, University of Central Florida.*  
 
 - **Edward Sun** (BS student, 2025)  
