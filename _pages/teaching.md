@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /Service/
-title: Service
+permalink: /Teaching and Service/
+title: Teaching and Service
 description: Materials for courses you taught. Replace this text with your description.
 nav: false
 nav_order: 5
@@ -11,5 +11,4 @@ For now, this page is assumed to be a static description of your courses. You ca
 
 Organize your courses by years, topics, or universities, however you like!
 
-EE 215
-EE 418 Fall
+
