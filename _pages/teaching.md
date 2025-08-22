@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /Teaching and Service/
-title: Teaching and Service
+permalink: /Service/
+title: Service
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 5
@@ -10,17 +10,18 @@ nav_order: 5
 ## Teaching
 
 ### University of Washington
-- **INFO 490: Data Ethics (Spring 2024)**  
-  Developed and taught undergraduate seminar on ethical issues in data science.  
-  Materials: [syllabus (PDF)](/assets/files/info490_syllabus.pdf)
+- **EE 215: Fundamentals of Electrical Engineering (Winter 2025, Spring 2025)**  
+  Teaching Assistant. Led lab sections, graded assignments, and supported students with problem-solving.
 
-- **CSE 512: Data Visualization (Fall 2023)**  
-  Guest lecturer on AI-assisted visualization design.
+- **EE 418: [Network Security and Cryptography] (Fall 2024)**  
+  Teaching Assistant. Assisted with coursework and student projects. 
 
+- **EE P 567: Machine Learning for Cybersecurity (Winter 2024)**  
+  Teaching Assistant. Supported lectures, held office hours, and graded assignments.  
+  Materials: [syllabus (PDF)](/assets/files/EE-P-567-Final-Syllabus.pdf)
+  
 ---
 
 ## Service
 
-- **Reviewer**: ACL, NeurIPS, ICML, FAccT, AAAI  
-- **Program Committee**: NeurIPS 2024 Datasets & Benchmarks track  
-- **Organizing Committee**: Workshop on Responsible AI, AAAI 2025
+- **Reviewer**: ARR, NeurIPS, AIESConf, IMWUT
