@@ -35,7 +35,7 @@ nav_order: 5
 
 - **[Yifei Zhao](https://www.linkedin.com/in/yifei-zhao2002/)** (MS student, 2024)  
   Research Assistant on backdoor defense project.  
-  *Now: Phd in Computer Science, University of Central Florida.*  
+  *Now: Phd in Computer Science, University of Central Florida.*
 
-- **Edward Sun** (BS student, 2025)  
+- **[Edward Sun](https://scholar.google.com/citations?user=W9g-njEAAAAJ&hl=en)** (BS student, 2025)  
   Research Assistant on personalized LLM safety project.  
