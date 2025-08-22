@@ -29,7 +29,7 @@ nav_order: 5
 
 ### Mentorship
 
-- **[Kyle Zheng](/https://scholar.google.com/citations?user=6kkyR1wAAAAJ&hl=en)** (MS student, 2024)  
+- **[Kyle Kaiyuan Zheng](/https://scholar.google.com/citations?user=6kkyR1wAAAAJ&hl=en)** (MS student, 2024)  
   Research Assistant on backdoor defense project.  
   *Now: Phd in Electrical Engineering, University of Washington.*  
 
