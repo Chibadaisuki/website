@@ -29,13 +29,17 @@ nav_order: 5
 
 ### Mentorship
 
+- **[Yifei Zhao](https://www.linkedin.com/in/yifei-zhao2002/)** (MS student, 2024)  
+  Research Assistant on backdoor defense project.  
+  *Now: Phd in Computer Science, University of Central Florida.*
+
 - **[Kyle Kaiyuan Zheng](https://scholar.google.com/citations?user=6kkyR1wAAAAJ&hl=en)** (MS student, 2024)  
   Research Assistant on backdoor defense project.  
   *Now: Phd in Electrical Engineering, University of Washington.*  
 
-- **[Yifei Zhao](https://www.linkedin.com/in/yifei-zhao2002/)** (MS student, 2024)  
-  Research Assistant on backdoor defense project.  
-  *Now: Phd in Computer Science, University of Central Florida.*
+- **Shiyu Chen** (BS student, 2024)  
+  Research Assistant on LLM watermark project.  
+  *Now: MS in Electrical Engineering, Carnegie Mellon University.*  
 
 - **[Edward Sun](https://scholar.google.com/citations?user=W9g-njEAAAAJ&hl=en)** (BS student, 2025)  
   Research Assistant on personalized LLM safety project.  
